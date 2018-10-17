@@ -1,0 +1,25 @@
+{
+    "name": "ionpan/wistia-uploader",
+    "description": "A simple tool to upload videos on Wistia using Wistia expiring tokens.",
+    "keywords": ["wistia", "uploader"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Panagiotis Ioannidis",
+            "email": "ionpan@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ionpan\\WistiaUploader\\": "src/"
+        }
+    }
+}
